@@ -1,5 +1,5 @@
 export function getPaginationAttribute(req, totalCount) {
-  let limit = 1;
+  let limit = 3;
   let offset = 0;
   let page = 1;
   if (req.query.page) {
